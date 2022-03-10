@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --clr-one: #afbfd1;
+    --clr-two: #592ab8;
+    --clr-three: #0D160B;
+    --clr-four: #FDFFFC;
+    --clr-five: #EC5766;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1rem;
+    background-color: var(--clr-five);
+    color: var(--clr-four);
+    font-weight: bold;
+}
+
+
+
+main {
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+
+section {
+    background-color: var(--clr-one);
+
+
+}
+
+img {
+    width: 50%;
+    height: auto;
+
+
+}
+
+h2,
+p {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+h2 {
+    color: var(--clr-two);
+}
+
+p {
+    color: var(--clr-three);
+}
+
+footer {
+    padding: 20px;
+    background-color: var(--clr-three);
+    margin-top: 20px;
+}
+
+footer p {
+    color: var(--clr-four);
+    font-size: 1.2rem;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+}
+
+.cards {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
